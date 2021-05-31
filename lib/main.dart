@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_examen_teeb/pages/Info.dart';
+import 'package:flutter_application_test/pages/Info.dart';
 import 'models/Restaurant.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';

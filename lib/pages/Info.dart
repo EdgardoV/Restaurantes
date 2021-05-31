@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_examen_teeb/models/Restaurant.dart';
+import 'package:flutter_application_test/models/Restaurant.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import '../models/Restaurant.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
