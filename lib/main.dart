@@ -88,7 +88,7 @@ class _MyAppState extends State<MyApp> {
       String decodeResponse =
           utf8.decode(response.bodyBytes); // Codificar a UTF8
       final jsonData = jsonDecode(decodeResponse);
-      types.add(FoodType("", "All Types"));
+      types.add(FoodType("", "Tipos"));
       for (var item in jsonData) {
         types.add(FoodType(item["slug"], item["name"]));
       }
